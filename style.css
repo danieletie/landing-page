@@ -1,0 +1,10 @@
+div {
+    border: 2px solid black;
+}
+
+.image {
+    height: 250px;
+    width: 250 px;
+    border: 3px dotted blue;
+}
+
