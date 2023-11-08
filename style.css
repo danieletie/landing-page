@@ -11,7 +11,7 @@ body {
 
 
 .hero, .nav-links>ul {
-    color: white;
+    color: #F9FAF8;
 }
 
 .hero {
@@ -27,7 +27,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
+    margin: 10px 150px;
 }
 
 .logo {
@@ -42,11 +42,13 @@ body {
 
 .nav-links>ul {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     list-style: none;
     gap: 30px;
     padding: 0px;
     margin: 0px;
+    flex-wrap: wrap;
 }
 
 
@@ -70,11 +72,12 @@ body {
 
 
 .hero-image{
+    align-self: center;
     /* width: 50%; */
     /* border: 2px solid grey; */
     flex: 1 1 0;
-    min-width: 250px;
-    min-height: 200px;
+    min-width: 350px;
+    min-height: 300px;
     object-fit: cover;
     border-radius: 2px;
     max-height: 300px;
@@ -92,9 +95,9 @@ body {
 
 .content>button {
     padding: 5px 25px;
-    background-color: rgb(57, 120, 255);
+    background-color: #3882F6;
     border-style: none;
-    color: white;
+    color: #F9FAF8;
     border-radius: 8px;
     margin: 10px 0px;
     max-width: 120px;
@@ -113,6 +116,8 @@ body {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
 }
 
 
@@ -131,13 +136,16 @@ body {
     justify-content: space-between;
     align-items: center;
     flex: 1 1 0px;
-    min-width: 150px;
+    /* width: 400px;
+    height: 400px; */
+    gap: 20px;
 }
 
 .cat-image {
-    display: flex;
-    min-width: 100%;
-    max-width: 100%;
+    /* display: flex; */
+    width: 200px;
+    height: 200px;
+    /* max-width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     /* flex-wrap: wrap; */
@@ -209,6 +217,7 @@ body {
     flex-wrap: wrap;
 } */
 
+
 .testimonial {
     display: flex;
     flex-direction: column;
@@ -225,11 +234,8 @@ body {
 
 }
 
-
-
 .testimonial-name, .rating {
-    /* display: flex; */
-
+    display: flex;
     align-self: flex-end;
     color: #1F2937;
     font-weight: 800;
@@ -238,6 +244,15 @@ body {
     flex-wrap: nowrap;
 }
 
+.testimonial-name {
+    min-width: 100px;
+}
+
+.checked {
+    color: #3882F6;
+    margin: 5px 3px;
+    scale: 1.2;
+}
 
 .call {
     display: flex;
@@ -250,32 +265,29 @@ body {
     flex-wrap: wrap;
 }
 
-
 .call-text-1 {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 800;
-    color: white;
-    flex: 1 1 0;
+    color: #F9FAF8;
+    flex: 1 1 0px;
 }
 
 .call-text-2 {
-    font-size: 20px;
-    /* font-weight: 800; */
-    color: white;
-    font-size: 14px;
+    color: #F9FAF8;
+    font-size: 12px;
+    margin: 0px 0px;
 }
 
 
 .call>button {
-    /* padding: 5px 25px; */
     background-color: #3882F6;
-    /* border-style: none; */
-    border-color: rgb(255, 255, 255);
-    color: white;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
     border-radius: 8px;
     margin: 10px 0px;
-    width: 120px;
+    padding: 2px 5px;
     font-size: 12px;
+    align-self: flex-end;
 }
 
 .footer {
@@ -283,17 +295,18 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    height: 50px;
-    color: white;
+    height: 40px;
+    color: #F9FAF8;
+    font-size: 12px;
 }
 
 a:visited {
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
 a {
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
