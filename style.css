@@ -30,6 +30,13 @@ body {
     margin: 10px 150px;
 }
 
+@media (max-width: 600px) {
+    .header {
+        padding: 20px;
+        margin: 0px;
+    }
+}
+
 .logo {
     font-size: 24px;
     font-weight: 900;
@@ -222,7 +229,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 80px 250px;
-    background-color: rgb(224, 220, 220);
+    background-color: #F9FAF8;
 }
 
 .testimonial-text {
@@ -251,6 +258,7 @@ body {
 .checked {
     color: #3882F6;
     margin: 5px 3px;
+
 }
 
 .call {
