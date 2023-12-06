@@ -232,6 +232,13 @@ body {
     background-color: #e0dcdc;
 }
 
+@media (max-width: 600px) {
+    .testimonial {
+        padding: 20px;
+        margin: 0px;
+    }
+}
+
 .testimonial-text {
     align-self: center;
     font-size: 36px;
